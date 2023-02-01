@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+
+@media screen and (min-width:768px){
+    body{
+      background: #FFFFFF url(https://identity.agt.minfin.gov.ao/identity/images/angola-loop-6.jpg) no-repeat;
+        /*background-image: linear-gradient(to top,rgb(20,147,220),rgb(17,54,71));*/
+    }
+    section#login{
+      width: 519px;
+      height: 320px;
+      border-radius: 5px 0px 0px 5px;
+    } 
+    section#login > div#imagem{
+      
+      float: left;
+      width: 173px;
+      height: 320px;
+
+      } 
+      section#login > div#formulario{
+          float: right;
+          width: 346px;
+          height: 320px;
+
+          } 
+  }
