@@ -8,20 +8,20 @@
  }
     section#login{
       width: 519px;
-      height: 320px;
+      height: 340px;
       border-radius: 5px 0px 0px 5px;
  } 
     section#login > div#imagem{
       
       float: left;
       width: 173px;
-      height: 320px;
+      height: 340px;
 
  } 
       section#login > div#formulario{
           float: right;
           width: 346px;
-          height: 320px;
+          height: 340px;
 
   } 
 }
