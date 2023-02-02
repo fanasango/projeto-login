@@ -6,11 +6,11 @@
 
 @font-face{
 font-family: "Android";
-src:url(fontes/IDroid\ Bold.otf) format("opentype");
-font-weight: normal;
+src:url(/fontes/SF-Pro-Text-Light.otf) format("opentype");
+/*font-weight: normal;*/
 }
 :root{
---fonte-android:"Android",cursiva;
+--fonte-android:"Android","SF Pro Text","Myriad Set Pro","SF Pro Icons","Apple Legacy Chevron","Helvetica Neue","Helvetica","Arial",sans-serif;;
 }
 /*verde:#49a09d
 lilais:#5f2c82*/
@@ -35,6 +35,13 @@ main{
 
 
 }
+h1{
+    font-family: var(--fonte-android);
+    font-size: 25px;
+
+
+}
+
 
 section#login{
     position: absolute;
