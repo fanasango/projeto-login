@@ -43,7 +43,7 @@ section#login{
     transform: translate(-50%,-50%);
     background-color: rgba(255, 255, 255, 0.39);
     width: 350px;
-    height: 633px;
+    height: 600px;
     overflow: hidden;
     border-radius: 5px 5px 0px 0px; 
     
@@ -54,7 +54,7 @@ section#login > div#imagem{
 display: block;
 background:rgba(180, 172, 172, 0.014) url(../imagens/logo1.png) no-repeat;
 /*background-size: cover;*/
-height: 304px;
+height: 250px;
 background-position: center;
 }
 section#login > div#formulario{
