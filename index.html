@@ -39,13 +39,14 @@ color: #707070;
 .inputUser:focus ~ .labelInput,
 .inputUser:valid ~ .labelInput{
 top: -5px;
-font-size: 12px;
+font-size: 10px;
 color: dodgerblue;
 transition-duration: .8s;
 
 }
 .inputUser:focus{
 border-bottom: 1px solid dodgerblue;
+
 
 }
 </style>
@@ -70,6 +71,11 @@ border-bottom: 1px solid dodgerblue;
                     <label for="semha" class="labelInput">Palavra-passe</label>
                 </div>
                 <br>
+                <div>
+                    <input type="checkbox" name="check" id="check" style="position: absolute; margin:0px;">
+                    <label for="check"style="margin-bottom: 0.25em;" >Memorizar-me</label>
+                   
+                </div>
                 <p><a href="#" style="color: #707070; text-decoration: none;">Esqueceu a Palavra-passe?</a></p><br>
 
                 <input type="submit" name="submit" value="Enviar" class="submit">
