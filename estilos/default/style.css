@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+
+.galery{
+height: 100%;
+width: 100%;
+display: inline-block;
+overflow: hidden;
+margin: 0px;
+padding: 0px;
+}
+.galery .fotos{
+    height: 100%;
+    animation-name: animacao;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    
+    
+}
+
+
+
+

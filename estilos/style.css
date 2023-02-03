@@ -21,17 +21,20 @@ padding: 0px;
 margin: 0px;
 box-sizing: border-box;
 
+
+
 }
 body,html{
     background: #FFFFFF url(https://identity.agt.minfin.gov.ao/identity/images/angola-loop-6.jpg) no-repeat;
-    /*background-color: #5f2c82;*/
-    height: 100%;
-    width: 100%;
+    background-color: #5f2c82;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
 }
 main{
     position: relative;
-    height: 100vh;
     width: 100vw;
+    height: 100vh;
 
 
 }
@@ -54,13 +57,14 @@ section#login{
     overflow: hidden;
     border-radius: 5px 5px 0px 0px; 
     
-    box-shadow: 0px 0px 10px rgba(73, 53, 53, 0.267);
+    box-shadow: 0px 0px 5px rgba(73, 53, 53, 0.11);
     
 }
 section#login:hover{
-    box-shadow: 0px 0px 10px dodgerblue;
-    
+    box-shadow: 0px 0px 10px rgba(30, 143, 255, 0.425);
+  
 }
+
 section#login > div#imagem{
 display: block;
 background:rgba(180, 172, 172, 0.014) url(../imagens/logo1.png) no-repeat;

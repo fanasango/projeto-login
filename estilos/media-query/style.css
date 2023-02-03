@@ -4,7 +4,7 @@
 @media screen and (min-width:768px){
     body{
       background: #FFFFFF url(https://identity.agt.minfin.gov.ao/identity/images/angola-loop-6.jpg) no-repeat;
-        /*background-image: linear-gradient(to top,rgb(20,147,220),rgb(17,54,71));*/
+      
  }
     section#login{
       width: 519px;
@@ -24,5 +24,19 @@
           height: 340px;
 
   } 
+  @keyframes animacao {
+    0% {margin-top: 0;}
+    20% {margin-top: 0;}
+    25% {margin-top: -145%;}
+    45% {margin-top: -145%;}
+    50% {margin-top: -205%;}
+    70% {margin-top: -205%;}
+    75% {margin-top: -350%;}
+    95% {margin-top: -350%;}
+    100% {margin-top: -400%;}
+    
+    
+    
+    }
   
 }

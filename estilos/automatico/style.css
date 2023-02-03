@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+@keyframes animacao {
+0% {margin-top: 0;}
+20% {margin-top: 0;}
+25% {margin-top: -260%;}
+45% {margin-top: -260%;}
+50% {margin-top: -515%;}
+70% {margin-top: -515%;}
+75% {margin-top: -770%;}
+95% {margin-top: -770%;}
+100% {margin-top: -850%;}
+
+
+
+}
